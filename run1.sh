@@ -34,7 +34,7 @@ else
         ./run.sh $1
     fi
 fi
-if [!-d /home/mapigaglio/result]; then
+if [!-d /home/kpeeroo/result]; then
     mkdir -p /home/kpeeroo/result;
 fi;
 mkdir /home/kpeeroo/result/$(date +%d-%m-%y-%H-%M)
