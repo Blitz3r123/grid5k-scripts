@@ -35,7 +35,7 @@ else
     fi
 fi
 if [!-d /home/mapigaglio/result]; then
-    mkdir -p /home/mapigaglio/result;
+    mkdir -p /home/kpeeroo/result;
 fi;
-mkdir /home/mapigaglio/result/$(date +%d-%m-%y-%H-%M)
-cp *.csv /home/mapigaglio/result/$(date +%d-%m-%y-%H-%M)
+mkdir /home/kpeeroo/result/$(date +%d-%m-%y-%H-%M)
+cp *.csv /home/kpeeroo/result/$(date +%d-%m-%y-%H-%M)
